@@ -2,16 +2,16 @@
 
 ```swift
 func getUserName() -> String? {
-let defaults = NSUserDefaults.standardUserDefaults()
-if let name = defaults.stringForKey(kUserNameKey) {
-return name
-}
-return nil
+  let defaults = NSUserDefaults.standardUserDefaults()
+  if let name = defaults.stringForKey(kUserNameKey) {
+    return name
+  }
+  return nil
 }
 
 func writeUserName(name: String) {
-let defaults = NSUserDefaults.standardUserDefaults()
-defaults.setObject(name, forKey: kUserNameKey)
+  let defaults = NSUserDefaults.standardUserDefaults()
+  defaults.setObject(name, forKey: kUserNameKey)
 }
 ```
 
