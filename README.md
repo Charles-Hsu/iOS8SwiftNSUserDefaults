@@ -14,7 +14,7 @@ func writeUserName(name: String) {
   defaults.setObject(name, forKey: kUserNameKey)
 }
 ```
-
+![](http://i.imgur.com/4vRcCrK.png)
 
 # Reference
 
